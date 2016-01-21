@@ -211,10 +211,35 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\3dGridComponent.css" />
+    <Content Include="Content\3dGridDemo.css" />
+    <Content Include="Content\3dGridNormalize.css" />
+    <Content Include="Content\thumbnailGridComponent.css" />
+    <Content Include="Content\thumbnailGridDefault.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\blokk\BLOKKRegular.svg" />
+    <Content Include="fonts\codropsicons\codropsicons.svg" />
+    <Content Include="fonts\codropsicons\license.txt" />
+    <Content Include="fonts\fontawesome\fontawesome.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\1thumb.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\2thumb.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\3thumb.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\5.jpg" />
+    <Content Include="img\6.jpg" />
+    <Content Include="img\7.jpg" />
+    <Content Include="img\8.jpg" />
+    <Content Include="img\9.jpg" />
+    <Content Include="img\preloader.gif" />
+    <Content Include="img\thumbs\1.jpg" />
+    <Content Include="img\thumbs\2.jpg" />
+    <Content Include="img\thumbs\3.jpg" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -222,8 +247,22 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\blokk\BLOKKRegular.eot" />
+    <Content Include="fonts\blokk\BLOKKRegular.ttf" />
+    <Content Include="fonts\blokk\BLOKKRegular.woff" />
+    <Content Include="fonts\codropsicons\codropsicons.eot" />
+    <Content Include="fonts\codropsicons\codropsicons.ttf" />
+    <Content Include="fonts\codropsicons\codropsicons.woff" />
+    <Content Include="fonts\fontawesome\fontawesome.eot" />
+    <Content Include="fonts\fontawesome\fontawesome.ttf" />
+    <Content Include="fonts\fontawesome\fontawesome.woff" />
+    <Content Include="img\thumbs\.DS_Store" />
     <None Include="Properties\PublishProfiles\NLeigh.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\classie.js" />
+    <Content Include="Scripts\grid.js" />
+    <Content Include="Scripts\grid3d.js" />
+    <Content Include="Scripts\helper.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -232,8 +271,10 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\modernizr.custom.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\thumbnailGridModernizr.custom.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -246,7 +287,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Articles.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
@@ -270,6 +311,9 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <Content Include="Views\Home\LiveLikeACat.cshtml" />
+    <Content Include="Views\Home\RestaurantApplication.cshtml" />
+    <Content Include="Views\Home\ExponentialDisruption.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
