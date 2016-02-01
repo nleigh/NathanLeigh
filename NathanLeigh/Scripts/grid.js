@@ -431,7 +431,7 @@ var Grid = (function() {
 					}
 					self.$item.removeClass( 'og-expanded' );
 					self.$previewEl.remove();
-					self.$item.height("250px");
+					//self.$item.height("250px");
 					
 				    
 				};
@@ -449,7 +449,7 @@ var Grid = (function() {
 				if( !support ) {
 					onEndFn.call();
 				}
-
+				self.$item.height("250px");
 			}, this ), 25 );
 			
 			return false;
